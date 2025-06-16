@@ -5,7 +5,7 @@ import { loginSchema, registerSchema } from "./auth.validation.js";
 const router = Router();
 
 // register
-router.post("/register", register);
+router.post("/register", isValid(registerSchema), register);
 router.post("/login", isValid(loginSchema), login);
 
 export default router;
