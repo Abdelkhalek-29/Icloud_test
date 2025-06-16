@@ -3,8 +3,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd Icloud_test-management-system
+   git clone <https://github.com/Abdelkhalek-29/Icloud_test>
+   cd Icloud_test
    ```
 
 2. Install dependencies:
